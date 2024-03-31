@@ -37,7 +37,7 @@ const EmailVerification = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/user/OTP-send",
+        "https://sid-project-backend.vercel.app/api/v1/user/OTP-send",
         {},
         {
           withCredentials: true,
